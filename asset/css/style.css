@@ -1,0 +1,93 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 900px;
+}
+header {
+    background: linear-gradient(to right, rgb(217,154,250), rgb(241,176,186));
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 85% 85% / 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    
+}
+header .logo {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    padding: 16px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+
+}
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+header ul li {
+    margin: 10px 36px;
+    padding:8px 16px;
+}
+header li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: arial;
+    border-radius: 5px;
+    text-transform: 1px 1px 1px #333;
+    font-weight: 500;
+    font-size: 18px;
+}
+header li a:hover {
+    color: aqua;
+}
+header .overlay {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    color: #Fff;
+    text-shadow: 1px 1px 1px #333;
+    background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+h3, p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #333;
+    background-color: #fff;
+    margin-bottom: 50px;
+    box-shadow:  0 3px 20px 0 #0000003b;
+}
+button:hover {
+    cursor: pointer;
+}
